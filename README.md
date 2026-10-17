@@ -1,44 +1,38 @@
-# ShopEase — E-commerce Frontend
+# ShopEase - E-Commerce Website
 
-A responsive demo storefront built using **HTML, CSS and vanilla JavaScript**. No backend, framework, or database is required.
+A responsive frontend e-commerce website built using HTML, CSS, and JavaScript.
 
 ## Features
 
-- Responsive layout for desktop, tablet and mobile
-- Product catalogue with sample products and product cards
-- Search by product name, category or description
-- Category filters and sorting by price or rating
-- Shopping cart drawer with add, remove and quantity controls
-- Automatic subtotal and cart item count
-- Newsletter form demo with confirmation message
-- Account information modal
-- Toast notifications and empty-search state
-- Sample product images loaded from Unsplash (internet connection required)
+- Responsive website design
+- Product listing and product cards
+- Product search functionality
+- Category-based product filtering
+- Product sorting
+- Shopping cart with quantity controls
+- Cart subtotal calculation
+- Demo account popup
+- Newsletter subscription message
 
-## Run the website
+## Technologies Used
 
-1. Extract the ZIP file.
-2. Open the `ecommerce_frontend` folder in VS Code.
-3. Open `index.html` in your browser, or use the **Live Server** extension in VS Code.
-4. Browse products and try the search, filters and cart.
+- HTML5
+- CSS3
+- JavaScript
 
-## Folder structure
+## How to Run
 
-```text
-ecommerce_frontend/
-├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   ├── products.js
-│   └── script.js
-└── README.md
-```
+1. Download or clone this repository.
+2. Open the project folder.
+3. Open `index.html` in your browser.
 
-## Important
+## Project Structure
 
-This is a **frontend-only project**. Cart data exists only in the current page session and is not stored in a database. Login, orders, real checkout, payment, and email subscription are demonstration interactions only. Product images and Google Fonts require an internet connection.
+- `index.html` - Main webpage
+- `css/style.css` - Website styling
+- `js/products.js` - Product data
+- `js/script.js` - JavaScript functionality
 
-## Next step
+## Note
 
-A backend can be added later using Python Flask and MySQL to store users, products, cart items, and orders.
+This is a frontend-only demo. Backend integration, database storage, user authentication, and real payment processing are not included.
