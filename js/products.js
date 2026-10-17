@@ -1,0 +1,11 @@
+// Demo product catalogue. Replace these sample items with API/database data later.
+const products = [
+  {id:1,name:"Studio Wireless Headphones",category:"Electronics",price:2499,oldPrice:3299,rating:4.8,badge:"BESTSELLER",image:"https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=700&q=85",description:"Comfortable over-ear sound for everyday listening."},
+  {id:2,name:"Everyday Canvas Tote",category:"Accessories",price:599,oldPrice:799,rating:4.7,badge:"POPULAR",image:"https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=700&q=85",description:"A roomy, versatile tote for your daily essentials."},
+  {id:3,name:"Minimal Ceramic Vase",category:"Home",price:749,oldPrice:999,rating:4.6,badge:"NEW",image:"https://images.unsplash.com/photo-1578500494198-246f612d3b3d?auto=format&fit=crop&w=700&q=85",description:"A clean sculptural accent for shelves and tables."},
+  {id:4,name:"Classic Everyday Sneakers",category:"Fashion",price:1899,oldPrice:2499,rating:4.8,badge:"TRENDING",image:"https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=700&q=85",description:"Easy-to-style sneakers built for daily comfort."},
+  {id:5,name:"Smart Fitness Watch",category:"Electronics",price:3299,oldPrice:3999,rating:4.5,badge:"SAVE 18%",image:"https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=85",description:"A simple, stylish companion for your busy day."},
+  {id:6,name:"Soft Knit Everyday Tee",category:"Fashion",price:499,oldPrice:699,rating:4.4,badge:"GREAT VALUE",image:"https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=700&q=85",description:"A comfortable staple that goes with almost anything."},
+  {id:7,name:"Desk Buddy Table Lamp",category:"Home",price:1199,oldPrice:1499,rating:4.7,badge:"STAFF PICK",image:"https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=700&q=85",description:"Warm, cosy lighting for your favourite corner."},
+  {id:8,name:"Compact Everyday Backpack",category:"Accessories",price:1399,oldPrice:1799,rating:4.6,badge:"ON THE GO",image:"https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=700&q=85",description:"A lightweight backpack for work, study and travel."}
+];
